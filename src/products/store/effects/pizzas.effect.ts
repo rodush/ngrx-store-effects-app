@@ -8,7 +8,7 @@ import * as pizzaActions from '../actions/pizzas.action';
 import { PizzasService } from '../../services';
 
 @Injectable()
-export class PizzasEffect {
+export class PizzasEffects {
     constructor(private actions$: Actions, private pizzaService: PizzasService) {}
 
     @Effect()
