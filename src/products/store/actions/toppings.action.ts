@@ -11,12 +11,12 @@ export class LoadToppings implements Action {
 }
 
 export class LoadToppingsSuccess implements Action {
-    readonly type = LOAD_TOPPINGS;
+    readonly type = LOAD_TOPPINGS_SUCCESS;
     constructor(public payload: any) {}
 }
 
 export class LoadToppingsFail implements Action {
-    readonly type = LOAD_TOPPINGS;
+    readonly type = LOAD_TOPPINGS_FAIL;
     constructor(public payload: any) {}
 }
 
