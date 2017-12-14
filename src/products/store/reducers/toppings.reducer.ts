@@ -23,7 +23,7 @@ export function reducer(state = initialState, action: fromToppings.ToppingsActio
             }
         }
 
-        case fromToppings.LOAD_TOPPINGS_SUCCESS: {
+        case fromToppings.LOAD_TOPPINGS_SUCCESS: {;
             const entities = action.payload.reduce((entities: {[id: number]: Topping}, topping: Topping) => {
                 return {
                     ...entities,
